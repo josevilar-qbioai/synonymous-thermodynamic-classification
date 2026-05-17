@@ -1,0 +1,10 @@
+metric,value,description
+validation,LOGO,Leave-One-Gene-Out
+mean_auc,0.625,mean across 54 genes
+std_auc,0.166,standard deviation
+genes_tested,54,genes with >= 3 pathogenic variants
+genes_above_chance,39,AUC > 0.5
+pct_above_chance,72.2,percentage above random
+subsample_ratio,1:20,training benign subsampled
+epochs_per_gene,30,fewer than Strategy B (speed)
+interpretation,universal_grammar,model learns transferable thermodynamic rules

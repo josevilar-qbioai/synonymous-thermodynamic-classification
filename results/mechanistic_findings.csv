@@ -1,0 +1,6 @@
+finding,statistic,p_value,interpretation
+G>A_enrichment,2.60x,<0.001,G>A transitions overrepresented in pathogenic synonymous variants
+CDS_length_vs_AUC,rho=-0.31,0.022,Shorter CDS genes yield higher classification AUC
+geometry_over_amplitude,gradient+curvature > magnitude,N/A,ΔG disruption geometry matters more than raw amplitude change
+splice_independence,no_edge_bias,>0.05,Model does not depend on proximity to canonical splice sites
+codon_position,non-wobble enriched,<0.05,Pathogenic variants enriched at 1st/2nd codon positions vs wobble

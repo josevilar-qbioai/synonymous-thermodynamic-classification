@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Thermodynamic Profiling for Synonymous Variant Classification"
+authors:
+  - family-names: "Vilar-Sanchez"
+    given-names: "Jose Antonio"
+    orcid: "https://orcid.org/0009-0008-1057-4223"
+    affiliation: "Universitat Oberta de Catalunya"
+version: "1.0.0"
+date-released: "2026-05-17"
+license: MIT
+repository-code: "https://github.com/josevilar-qbioai/synonymous-thermodynamic-classification"
+keywords:
+  - synonymous variants
+  - thermodynamic profiling
+  - stacking free energy
+  - deep learning
+  - variant classification
+  - ClinVar
+  - bioinformatics
+abstract: >-
+  A 1D convolutional neural network that classifies pathogenic synonymous
+  variants using nearest-neighbor stacking free energy profiles. Achieves
+  AUC 0.683 on 5-fold CV and demonstrates universal transferability via
+  Leave-One-Gene-Out validation (AUC 0.625, 72% of genes above chance).
