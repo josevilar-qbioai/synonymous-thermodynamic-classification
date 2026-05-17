@@ -3,10 +3,10 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "Thermodynamic Profiling for Synonymous Variant Classification"
 authors:
-  - family-names: "Vilar-Sanchez"
+  - family-names: "Vilar Sanchez"
     given-names: "Jose Antonio"
     orcid: "https://orcid.org/0009-0008-1057-4223"
-    affiliation: "Universitat Oberta de Catalunya"
+    email: "qmetrika@proton.me"
 version: "1.0.0"
 date-released: "2026-05-17"
 license: MIT
