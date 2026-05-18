@@ -10,9 +10,9 @@ authors:
 version: "1.0.0"
 date-released: "2026-05-17"
 license: MIT
-doi: "10.5281/zenodo.20259395"
+doi: "10.5281/zenodo.20275792"
 repository-code: "https://github.com/josevilar-qbioai/synonymous-thermodynamic-classification"
-url: "https://doi.org/10.5281/zenodo.20259395"
+url: "https://doi.org/10.5281/zenodo.20275792"
 keywords:
   - synonymous variants
   - thermodynamic profiling

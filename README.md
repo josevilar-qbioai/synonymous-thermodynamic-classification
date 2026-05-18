@@ -1,6 +1,6 @@
 # Synonymous Variant Classification via Thermodynamic Profiling
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20259395.svg)](https://doi.org/10.5281/zenodo.20259395)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20275792.svg)](https://doi.org/10.5281/zenodo.20275792)
 
 Reproducible analysis code for the paper:
 
@@ -8,7 +8,7 @@ Reproducible analysis code for the paper:
 >
 > Jose Antonio Vilar Sanchez (2026)
 >
-> DOI: [10.5281/zenodo.20259395](https://doi.org/10.5281/zenodo.20259395)
+> DOI: [10.5281/zenodo.20275792](https://doi.org/10.5281/zenodo.20275792)
 
 ## Overview
 
@@ -153,8 +153,8 @@ If you use this code or data, please cite:
   title = {Thermodynamic Fingerprinting Reveals Universal Grammar in
            Pathogenic Synonymous Variants},
   year = {2026},
-  doi = {10.5281/zenodo.20259395},
-  url = {https://doi.org/10.5281/zenodo.20259395}
+  doi = {10.5281/zenodo.20275792},
+  url = {https://doi.org/10.5281/zenodo.20275792}
 }
 ```
 
