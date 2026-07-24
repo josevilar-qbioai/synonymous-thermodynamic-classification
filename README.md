@@ -23,7 +23,8 @@ This repository implements a 1D-CNN that classifies synonymous variants using **
 | Method | AUC-ROC | Description |
 |--------|:-------:|-------------|
 | Strategy A (Isolation Forest) | 0.651 | Unsupervised anomaly detection |
-| **Strategy B (Dedicated CNN)** | **0.683 ± 0.018** | 5-fold stratified CV |
+| **Strategy B (Dedicated CNN, Turner RNA)** | **0.709 ± 0.033** | 5-fold stratified CV (out-of-fold 0.693) |
+| Strategy B (Dedicated CNN, SantaLucia DNA) | 0.683 ± 0.018 | 5-fold stratified CV (prior baseline) |
 | Strategy B (Focal Loss γ=2) | 0.677 ± 0.021 | Hard-example mining |
 | Strategy C (Zero-shot from missense) | 0.386 | Transfer fails (anti-correlates) |
 | **LOGO validation** | **0.625 ± 0.166** | 72% of genes above chance |

@@ -3,9 +3,13 @@ strategy,B (Dedicated CNN),Strategy B - trained exclusively on synonymous varian
 loss,CrossEntropyLoss,with class weights [1.0 n_neg/n_pos]
 folds,5,stratified by gene
 subsample_ratio,1:20,benign subsampled to reduce imbalance
-mean_auc,0.683,5-fold mean AUC-ROC
-std_auc,0.018,5-fold standard deviation
-focal_loss_auc,0.677,Focal Loss gamma=2.0 variant
+nn_parameters,Turner (RNA),nearest-neighbor stacking energies (mRNA substrate)
+mean_auc,0.709,5-fold mean AUC-ROC (Turner)
+std_auc,0.033,5-fold standard deviation (Turner)
+oof_auc,0.693,out-of-fold global AUC (Turner)
+mean_auc_santalucia,0.683,5-fold mean AUC-ROC (SantaLucia DNA, prior baseline)
+std_auc_santalucia,0.018,5-fold standard deviation (SantaLucia)
+focal_loss_auc,0.677,Focal Loss gamma=2.0 variant (SantaLucia)
 focal_loss_std,0.021,Focal Loss standard deviation
 total_variants,130784,641 pathogenic + 130143 benign
 genes_total,450,approximate gene count
