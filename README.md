@@ -178,4 +178,4 @@ MIT License. See [LICENSE](LICENSE).
 **Jose Antonio Vilar Sanchez**
 - ORCID: [0009-0008-1057-4223](https://orcid.org/0009-0008-1057-4223)
 - GitHub: [@josevilar-qbioai](https://github.com/josevilar-qbioai)
-- Contact: qmetrika@proton.me
+- Contact: info@qmetrika.xyz
